@@ -1,0 +1,1 @@
+This example demonstrates a subtle bug in Groovy related to implicit type coercion. When a list is passed to a method expecting a map, Groovy implicitly attempts to convert the list to a map, leading to unexpected behavior. The provided solution shows how to explicitly check the type of parameters and handle potential type mismatches to avoid this issue.
